@@ -17,6 +17,11 @@ $cell-hover-bg: #ffbfcb;
 $font-size: 30px;
 $animation-time: 0.5s;
 
+.calendar,
+.calendar__day {
+  box-sizing: border-box;
+}
+
 .calendar {
   display: flex;
   flex-wrap: wrap;
